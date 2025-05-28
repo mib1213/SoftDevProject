@@ -1,0 +1,17 @@
+aggregating_temperature.py
+collect_live_temperature.py
+data_cleaning.ipynb
+environment.yml
+hr_openweather.py
+hr_worldbank.py
+push_live_temp.py
+script_openweather.py
+script_wetterdienst.py
+script_worldbank.py
+settings.txt
+temperature.ipynb
+test.ipynb
+test2.ipynb
+world_bank_2.py
+
+.DS_Store
