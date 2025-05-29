@@ -68,7 +68,7 @@
 
 ## Dashboard
 
-- Link zum aktuellen Dashboard: [Version2-Dashboard öffnen](https://snapshots.raintank.io/dashboard/snapshot/l5ajv9zEEbmdeczNUOSRRIR4iEF5tHxj?orgId=0&refresh=5s)
+- Link zum aktuellen Dashboard: [Version2-Dashboard öffnen](https://snapshots.raintank.io/dashboard/snapshot/UxM6IdqLOsoAkR8WqlsxTcquj2ZhsDwY)
 
 ## Automatisierung mit `crontab -e`
 
@@ -98,4 +98,4 @@ Alternativ zu `crontab` kann man auch **Prometheus** + **Pushgateway** verwenden
         - targets: ['localhost:9091']
     ```
 3. Prometheus starten
-4. `push_combined_temperature_2.py` anpassen bzw. der relevante Teil auskommentieren
+4. `push_combined_temperature_2.py` anpassen bzw. den entsprechenden Teil auskommentieren
