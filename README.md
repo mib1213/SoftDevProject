@@ -69,3 +69,32 @@
 ## Dashboard
 
 - Link zum aktuellen Dashboard: [Version2-Dashboard öffnen](https://snapshots.raintank.io/dashboard/snapshot/l5ajv9zEEbmdeczNUOSRRIR4iEF5tHxj?orgId=0&refresh=5s)
+
+## Automatisierung mit `crontab -e`
+
+Minütliche Ausführung von `push_combined_temperature_2.py` einrichten:
+
+1. Terminal öffnen:
+    ```bash
+    crontab -e
+    ```
+2. Folgende Zeilge hinzufügen:
+    ```vim
+    * * * * * /Users/omer/miniforge3/envs/prometheus/bin/python /Users/omer/Programming/SoftDevProject/Version2/push_combined_temperature_2.py >> /Users/omer/Programming/SoftDevProject/Version2/cron_debug_2.log 2>&1
+    ```
+
+## Prometheus (Optional)
+
+Alternativ zu `crontab` kann man auch **Prometheus** + **Pushgateway** verwenden:
+
+1. Pushgateway herunterladen und starten
+2. `prometheus.yml` konfigurieren:
+    ```yml
+    global:
+    scrape_interval: 60s
+    scrape_configs:
+        - job_name: 'pushgateway'
+        static_configs:
+        - targets: ['localhost:9091']
+    ```
+3. Prometheus starten
