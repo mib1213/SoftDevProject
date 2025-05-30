@@ -52,6 +52,7 @@
 | `Version2/combined_temperature_log_2.csv` | Temperaturdaten im **Long Format** (historisch + live) |
 | `Version2/combined_temperature_wide_2.csv` | Temperaturdaten im **Wide Format** (für Grafana) |
 | `data/temperature_historical_data.csv` | Bereinigte historische Temperaturdaten (Long Format) |
+| `EDA.ipynb` | Analyse zum Temperaturverhalten der letzten 145 Jahre in Deutschland |
 
 ---
 
