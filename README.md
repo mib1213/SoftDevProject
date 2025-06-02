@@ -69,7 +69,7 @@
 
 ## Dashboard
 
-- Link zum aktuellen Dashboard: [Version2-Dashboard öffnen](https://snapshots.raintank.io/dashboard/snapshot/UxM6IdqLOsoAkR8WqlsxTcquj2ZhsDwY)
+- Link zum aktuellen Dashboard: [Version2-Dashboard öffnen](https://snapshots.raintank.io/dashboard/snapshot/JAr1LftODQEcXnrAfXmxY2c2EmHNDoDM)
 
 ## Automatisierung mit `crontab -e`
 
