@@ -11,7 +11,6 @@ API_KEY = os.getenv("OPENWEATHER_API_KEY")
 if not API_KEY:
     raise ValueError("API_KEY ist nicht gesetzt. Bitte in der .env-Datei konfigurieren.")
 
-# API_KEY = "89fec74f45a3bde1c659eb87cd74880f"
 CSV_COMBINED_FILE = "/Users/omer/Programming/SoftDevProject/Version2/combined_temperature_log_2.csv"
 CSV_WIDE_FILE = "/Users/omer/Programming/SoftDevProject/Version2/combined_temperature_wide_2.csv"
 PUSHGATEWAY_URL = "localhost:9091"
